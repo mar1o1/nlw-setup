@@ -12,7 +12,7 @@ function add() {
     if (dayExists) {
         return alert('Você já adicionou um hábito hoje!')
     }
-    return alert('Hábito adicionado com sucesso!'),
+
     nlwSetup.addDay(today)
 }
 
